@@ -4,43 +4,6 @@
 
 
 
-
-
-
-
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"3rd commit - performed operations on the crazy object".
-<hr>
-
-# Object-ception
-
-With the following object:
-
-```
-const inception = {
-   reality: {
-       dreamLayer1: {
-           dreamLayer2: {
-               dreamLayer3: {
-                   dreamLayer4: {
-                       dreamLayer5: {
-                           dreamLayer6: {
-                               limbo: "Joseph Gordon Levitt"
-                          }
-                       }
-                   }
-               }
-           }
-       }
-   }
-}
-```
-
-Change the value of `limbo` to `null`.
-
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
