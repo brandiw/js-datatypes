@@ -1,64 +1,13 @@
 
-<hr>
-&#x1F534; **Commit your work.**<br>
-The commit message should read: <br>
-"1st commit - selecting datatypes".
-<hr>
 
-## Take it Easy
 
-1. Make an array that holds all of the colors of the rainbow.
-2. Write code that will access "blue" from the rainbow array.
-3. Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
-4. Write code that will access your hobby from the object that you just created.
 
-<hr>
-&#x1F534; **Commit your work.**<br>
-The commit message should read: <br>
-"2nd commit - created some data structures and accessed some data".
-<hr>
 
-## Crazy Object!
 
-```
-const crazyObject = {
-  taco: [{meat: 'steak',
-         cheese: ['panela', 'queso', 'chihuahua']},
-         {meat: 'chicken',
-          salsa: ["pico", "hot", "hotter", "really hot", "really really hot", "omg my mouth is burning"]},
-        ],
-  larry: {
-    nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
-    quotes: ["Pretty pretty prettayyyyy good", "Is that a parkinson's thing?", "women love a self confident bald man", "I'm a walking talking enigma"],
-    characters: [{
-      name: "Jeff",
-      occupation: "manager"
-    },
-    {
-      name: "funkhauser",
-      occupation: "tv dude"
-    },
-    {
-      name: "susie",
-      occupation: "jeffs wife",
-      favourtieHobby: "Swearing at Larry and Jeff"
-    },
-    ]
-  }
-}
-```
 
-Use crazy Object to log the following.
 
-1. "omg my mouth is burning"
 
-2. "Pretty pretty prettayyyyy good"
 
-3. "Swearing at Larry and Jeff"
-
-4. "Chicken Teriyaki Boyyyyyy"
-
-5. The object the contains the name `funkhauser`
 
 <hr>
 &#x1F534; **Commit your work.** <br>
