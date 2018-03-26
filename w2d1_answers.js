@@ -42,3 +42,23 @@ const jessi = {
 
 console.log(jessi.hobby);
 
+// CRAZY OBJECT
+// . Use crazy Object to log the following.
+// 1. "omg my mouth is burning"
+console.log(crazyObject.taco[1].salsa[5]);
+
+// 2. "Pretty pretty prettayyyyy good"
+console.log(crazyObject.larry.quotes[0]);
+
+// 3. "Swearing at Larry and Jeff"
+console.log(crazyObject.larry.characters[2].favourtieHobby);
+
+// 4. "Chicken Teriyaki Boyyyyyy"
+console.log(crazyObject.larry.nicknames[1]);
+
+// 5. The object the contains the name funkhauser
+crazyObject.larry.characters.forEach(item => {
+	if (item.name === 'funkhauser') {
+		console.log(item.name);
+	}
+});
