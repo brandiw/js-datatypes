@@ -13,3 +13,19 @@
 // 						{name: "Simmy", location: "Bothell", faveTv: "Walking Dead"},
 // 						{name: "Jesse", location: "Queen Anne", faveTv: "The Bachelor"}
 // 						];
+
+TAKE IT EASY
+
+1. const rainbow = ["red", "orange", "yellow", "green", "blue", "idigo", "violet" ];
+
+2. rainbow[4]
+
+3. const Karla = {
+	faveFood: "Pizza",
+	hobby: "Emboidery",
+	city: "Seattle",
+	faveDataType: "Object"
+	};
+
+4. console.log(Karla.hobby);
+
