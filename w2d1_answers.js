@@ -62,3 +62,8 @@ crazyObject.larry.characters.forEach(item => {
 		console.log(item.name);
 	}
 });
+
+// OBJECT-CEPTION
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null;
+
+
