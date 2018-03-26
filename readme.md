@@ -1,20 +1,6 @@
 
 
 
-
-
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"4th commit - accessed limbo".
-<hr>
-
-## Bond Films
-
-### Array of objects:
-
-```
 const bondFilms = [
   { "title" : "Skyfall", "year" : 2012, "actor" : "Daniel Craig", "gross" : "$1,108,561,008" },
   { "title" : "Thunderball", "year" : 1965, "actor" : "Sean Connery", "gross" : "$1,014,941,117" },
