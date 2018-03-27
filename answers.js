@@ -29,3 +29,14 @@ TAKE IT EASY
 
 4. console.log(Karla.hobby);
 
+CRAZY OBJECT!
+
+1.console.log(crazyObject.taco[1].salsa[5]);
+
+2.console.log(crazyObject.larry.quotes[0]);
+
+3. console.log(crazyObject.larry.characters[2].favourtieHobby);
+
+4. console.log(crazyObject.larry.nicknames[1]);
+
+5. console.log(crazyObject.larry);
