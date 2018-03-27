@@ -72,8 +72,16 @@ inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dr
 const bondTitles = bondFilms.forEach((obj) => {
     console.log(obj.title);
   });
+
   // 2. Create a new array oddBonds, of only the Bond films released on odd-numbered years.
-
+  const oddBonds = [];
+  bondFilms.forEach((obj) => {
+      if (obj.year % 2 === 0) {
+        oddBonds.push(obj);
+      }
+  });
   
-  // 3. Determine the total cumulative gross of the Bond franchise, and console.log the result. hint To make the grosses into usable numbers, look into the .replace Javascript method (there are many ways to do this, however). Look into parseInt also.
+  console.log(oddBonds);
 
+  // 3. Determine the total cumulative gross of the Bond franchise, and console.log the result. hint To make the grosses into usable numbers, look into the .replace Javascript method (there are many ways to do this, however). Look into parseInt also.
+  
