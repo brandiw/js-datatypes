@@ -151,10 +151,12 @@ bondFilms.forEach((value, i) => {
 	grossSumInt += grossSum[i];
 })
 
-//grossSumInt.replace(/(d{3})/g, "$1,")
+grossSumInt = grossSumInt.toString().replace(/(\d{2})(\d{3})(\d{3})/, "$$$1,$2,$3,");
 
-
+//13,821,621,224
 console.log(grossSumInt);
+
+console.log("####################");
 
 
 
