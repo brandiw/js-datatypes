@@ -6,9 +6,9 @@
 //6. student names / location/ favorite show = array of objects
 
 //take it easy
-const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-console.log(rainbow[4]);
+// console.log(rainbow[4]);
 
 // const bradley = {
 // 	favoritefood: "pizza",
@@ -124,17 +124,16 @@ const bondFilms = [
 
 // oddBonds;
 
-let grossBond = [];
-let grossBondTotal = [];
 
-bondFilms.map( (item )=>{
-grossBond.push(item.gross.replace('$', ''));
-})
+let grossBond = bondFilms.map((item, i ) => {
+  return parseInt(item.gross.replace('$', '').replace(/,/gi, ''));
+});
 
-bondFilms.map((profit)=>{
-	parseInt(profit, 10);
-	grossBondTotal += profit;
-})
 
-grossBondTotal;
+let grossTotal = grossBond.reduce((total, amount) => {
+  return total + amount;
+});
+
+console.log(grossTotal);
+
 
