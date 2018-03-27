@@ -114,7 +114,7 @@ const inception = {
   })
 
 const oddBonds = bondFilms.filter(val => {
-   return val.year % 1 === 0
+   return !(val.year % 1 === 0)
 })
 
 console.log(oddBonds)
