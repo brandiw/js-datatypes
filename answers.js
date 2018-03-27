@@ -55,4 +55,15 @@ console.log(crazyObject.larry.nicknames[1]);
 
 //1.
 
-inception.dreamLayer6[0] = "null";
+inception.dreamLayer6.limbo = "null";
+
+// Bond Films 
+
+//1. Need help with this
+
+for(let i = 0; bondFilms.length; i++){
+  console.log(bondFilms[i].title);
+
+};
+
+
