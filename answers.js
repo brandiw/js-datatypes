@@ -140,8 +140,21 @@ const oddBonds = bondFilms.filter((value) => {
 
 console.log(oddBonds);
 
+console.log("###################");
+
+//Determine the total cumulative gross of the Bond franchise, and console.log the result. hint To make the grosses into usable numbers, look into the .replace Javascript method (there are many ways to do this, however). Look into parseInt also.
+let grossSum = [];
+let grossSumInt = 0;
+bondFilms.forEach((value, i) => {
+	grossSum.push(bondFilms[i].gross);
+	grossSum[i] = Number(grossSum[i].replace(/\$|,/g, ""));
+	grossSumInt += grossSum[i];
+})
+
+//grossSumInt.replace(/(d{3})/g, "$1,")
 
 
+console.log(grossSumInt);
 
 
 
