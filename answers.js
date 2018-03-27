@@ -50,3 +50,9 @@ console.log(crazyObject.larry.quotes[0]);
 console.log(crazyObject.larry.nicknames[1]);
 
 //5. Unsure of this answer
+
+// Object-ception 
+
+//1.
+
+inception.dreamLayer6[0] = "null";
