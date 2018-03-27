@@ -1,8 +1,4 @@
 
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"6th commit - made an array of odd bonds".
-<hr>
 
 * Determine the total cumulative gross of the Bond franchise, and console.log the result. _hint_ To make the grosses into usable numbers, look into the `.replace` Javascript method (there are many ways to do this, however). Look into `parseInt` also.
 
