@@ -59,11 +59,27 @@ inception.dreamLayer6.limbo = "null";
 
 // Bond Films 
 
-//1. Need help with this
+//1. 
 
 for(let i = 0; bondFilms.length; i++){
   console.log(bondFilms[i].title);
 
+  arr.forEach( (value, index) ) => {
+
+  }
+  bondFilms.forEach( (movie) ) => {
+  	console.log(bondFilms.title)
+  }
+
 };
+const bondTitles = bondFilms.forEach((val) => console.log(val.title));
 
+//2. 
 
+ const oddBonds = bondFilms.filter(val => {
+	return val.year % 2 !== 0;
+})
+
+console.log(oddBonds);
+
+//3. 
