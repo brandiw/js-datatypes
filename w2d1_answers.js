@@ -66,4 +66,14 @@ crazyObject.larry.characters.forEach(item => {
 // OBJECT-CEPTION
 inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null;
 
+// BOND FILMS
+// 1. Create a new array called bondTitles with only the titles of the Bond films, and console.log the new array.
+
+const bondTitles = bondFilms.forEach((obj) => {
+    console.log(obj.title);
+  });
+  // 2. Create a new array oddBonds, of only the Bond films released on odd-numbered years.
+
+  
+  // 3. Determine the total cumulative gross of the Bond franchise, and console.log the result. hint To make the grosses into usable numbers, look into the .replace Javascript method (there are many ways to do this, however). Look into parseInt also.
 
