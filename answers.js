@@ -111,6 +111,14 @@ for(let i = 0; i < bondFilms.length; i++) {
 
 console.log(oddBond);
 
+for(let i = 0; i < bondFilms.length; i++) {
+  grossTotal.push(bondFilms[i].gross.replace(/\$|,/g,''));
+  grossTotal[i] = parseInt(grossTotal[i]);
+  total += grossTotal[i];
+
+}
+console.log(total);
+
 
 
 
