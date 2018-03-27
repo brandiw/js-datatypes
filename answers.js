@@ -41,3 +41,7 @@ console.log(crazyObject.larry.characters[2].favourtieHobby);
 console.log(crazyObject.larry.nicknames[1]);
 console.log(crazyObject.larry.characters);
 
+
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = "null";
+console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo);
+
