@@ -91,15 +91,26 @@ const bondFilms = [
   { "title" : "A View to a Kill", "year" : 1985, "actor" : "Roger Moore", "gross" : "$321,172,633" },
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
-const bondTitles =  () => {
+const bondTitles =  [];
 for(let i = 0; i < bondFilms.length; i++) {
-console.log(bondFilms[i].title);
+  bondTitles.push(bondFilms[i].title);
+
 }
-};
+console.log(bondTitles);
 
-bondTitles();
+Array.isArray(bondTitles);
 
-//How do you make it into an array
+
+const oddBond = [];
+
+for(let i = 0; i < bondFilms.length; i++) {
+  if (bondFilms[i].year % 2 !== 0) {
+  oddBond.push(bondFilms[i].title);
+  }
+}
+
+console.log(oddBond);
+
 
 
 
